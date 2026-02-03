@@ -24,25 +24,25 @@ Kibana (Dashboards & Analytics)
 ### 🛠️ ELK Stack Installation
 **1️⃣ Elasticsearch**
 
-Installation and service configuration
+-Installation and service configuration
 
-Cluster startup and health verification
+-Cluster startup and health verification
 
-Access via:
+-Access via:
 http://localhost:9200
 
 **2️⃣ Kibana**
 
-Configuration of Elasticsearch connection
+-Configuration of Elasticsearch connection
 
-Web interface access via:
+-Web interface access via:
 http://localhost:5601
 
 **3️⃣ Logstash**
 
-Pipeline configuration (input, filter, output)
+-Pipeline configuration (input, filter, output)
 
-Verification of data ingestion from MongoDB into Elasticsearch
+-Verification of data ingestion from MongoDB into Elasticsearch
 
 ## 🔐 Security & Authentication
 
@@ -57,6 +57,8 @@ The ELK stack is fully secured using X-Pack Security:
 - Secured access to Elasticsearch and Kibana
 
 - Mandatory authentication (username & password)
+
+![Authentification](Authentification.png)
 
 ### ⚙️ Technologies Used
 
