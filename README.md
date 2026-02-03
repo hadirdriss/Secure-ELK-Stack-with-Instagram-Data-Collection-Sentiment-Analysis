@@ -121,3 +121,23 @@ Dedicated database and collection
 Duplicate prevention using upsert operations
 
 MongoDB serves as the data source for Logstash
+
+**🧠 Sentiment Analysis**
+
+Instagram post texts are analyzed to:
+
+-Detect overall sentiment (positive, negative, neutral)
+
+-Enrich documents before indexing into Elasticsearch
+
+-Enable sentiment-based filtering and visualization in Kibana
+
+### 📬 Contact
+
+👤 Hadir DRISS
+
+📧 Email : hadirdriss6@gmail.com
+
+💼 GitHub : https://github.com/hadirdriss
+
+🔗 LinkedIn : https://www.linkedin.com/in/hadir-driss-287202206/
