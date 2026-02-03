@@ -37,6 +37,7 @@ Configuration of Elasticsearch connection
 
 Web interface access via:
 http://localhost:5601
+
 **3️⃣ Logstash**
 
 Pipeline configuration (input, filter, output)
@@ -56,3 +57,64 @@ Role-based access control (RBAC)
 Secured access to Elasticsearch and Kibana
 
 Mandatory authentication (username & password)
+
+### ⚙️ Technologies Used
+**🔹 ELK Stack**
+
+Elasticsearch – indexing and search engine
+
+Logstash – data ingestion and transformation
+
+Kibana – data visualization and dashboards
+
+**🔹 Backend & Data**
+
+Python 3
+
+Instaloader (Instagram scraping)
+
+MongoDB
+
+PyMongo
+
+**🔹 Security**
+
+X-Pack Security
+
+User authentication
+
+Role and permission management
+**🖥️ Environment**
+
+Ubuntu 24.04.3
+
+Elasticsearch, Logstash, Kibana 7.17.29
+
+JVM 22.0.2
+
+Local MongoDB instance
+## 🕷️ Instagram Data Collection
+
+A Python script is used to extract Instagram posts based on a given hashtag.
+
+**🔎 Collected Data**
+
+Username
+
+Post content
+
+Number of likes
+
+Publication date
+
+Post URL
+
+**💾 Data Storage (MongoDB)**
+
+Extracted data stored in MongoDB
+
+Dedicated database and collection
+
+Duplicate prevention using upsert operations
+
+MongoDB serves as the data source for Logstash
