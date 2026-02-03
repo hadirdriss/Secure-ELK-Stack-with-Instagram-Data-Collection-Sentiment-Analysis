@@ -30,3 +30,29 @@ Cluster startup and health verification
 
 Access via:
 http://localhost:9200
+
+**2️⃣ Kibana**
+
+Configuration of Elasticsearch connection
+
+Web interface access via:
+http://localhost:5601
+**3️⃣ Logstash**
+
+Pipeline configuration (input, filter, output)
+
+Verification of data ingestion from MongoDB into Elasticsearch
+
+## 🔐 Security & Authentication
+
+The ELK stack is fully secured using X-Pack Security:
+
+X-Pack Security enabled
+
+User and role creation
+
+Role-based access control (RBAC)
+
+Secured access to Elasticsearch and Kibana
+
+Mandatory authentication (username & password)
