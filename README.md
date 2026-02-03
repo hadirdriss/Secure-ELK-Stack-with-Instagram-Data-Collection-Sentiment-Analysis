@@ -7,7 +7,7 @@ This project focuses on deploying and securing an ELK Stack (Elasticsearch, Logs
 The main objective is to build a secure, end-to-end data pipeline that collects social media data, enriches it with sentiment analysis, indexes it into Elasticsearch, and visualizes insights through Kibana dashboards.
 
 ## 🏗️ Global Architecture
-
+```
 Instagram
    ↓
 Python Script (Instaloader)
@@ -19,7 +19,8 @@ Logstash
 Elasticsearch
    ↓
 Kibana (Dashboards & Analytics)
- 
+
+ ```
 ### 🛠️ ELK Stack Installation
 **1️⃣ Elasticsearch**
 
