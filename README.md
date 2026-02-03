@@ -38,6 +38,9 @@ http://localhost:9200
 -Web interface access via:
 http://localhost:5601
 
+
+![Dashboards](Dashboards.png)
+
 **3️⃣ Logstash**
 
 -Pipeline configuration (input, filter, output)
@@ -72,31 +75,31 @@ Kibana – data visualization and dashboards
 
 **🔹 Backend & Data**
 
-Python 3
+-Python 3
 
-Instaloader (Instagram scraping)
+-Instaloader (Instagram scraping)
 
-MongoDB
+-MongoDB
 
-PyMongo
+-PyMongo
 
 **🔹 Security**
 
-X-Pack Security
+-X-Pack Security
 
-User authentication
+-User authentication
 
-Role and permission management
+-Role and permission management
 
 **🖥️ Environment**
 
-Ubuntu 24.04.3
+-Ubuntu 24.04.3
 
-Elasticsearch, Logstash, Kibana 7.17.29
+-Elasticsearch, Logstash, Kibana 7.17.29
 
-JVM 22.0.2
+-JVM 22.0.2
 
-Local MongoDB instance
+-Local MongoDB instance
 
 ## 🕷️ Instagram Data Collection
 
@@ -104,25 +107,25 @@ A Python script is used to extract Instagram posts based on a given hashtag.
 
 **🔎 Collected Data**
 
-Username
+-Username
 
-Post content
+-Post content
 
-Number of likes
+-Number of likes
 
-Publication date
+-Publication date
 
-Post URL
+-Post URL
 
 **💾 Data Storage (MongoDB)**
 
-Extracted data stored in MongoDB
+-Extracted data stored in MongoDB
 
-Dedicated database and collection
+-Dedicated database and collection
 
-Duplicate prevention using upsert operations
+-Duplicate prevention using upsert operations
 
-MongoDB serves as the data source for Logstash
+-MongoDB serves as the data source for Logstash
 
 **🧠 Sentiment Analysis**
 
