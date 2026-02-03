@@ -48,17 +48,18 @@ Verification of data ingestion from MongoDB into Elasticsearch
 
 The ELK stack is fully secured using X-Pack Security:
 
-X-Pack Security enabled
+- X-Pack Security enabled
 
-User and role creation
+- User and role creation
 
-Role-based access control (RBAC)
+- Role-based access control (RBAC)
 
-Secured access to Elasticsearch and Kibana
+- Secured access to Elasticsearch and Kibana
 
-Mandatory authentication (username & password)
+- Mandatory authentication (username & password)
 
 ### ⚙️ Technologies Used
+
 **🔹 ELK Stack**
 
 Elasticsearch – indexing and search engine
@@ -84,6 +85,7 @@ X-Pack Security
 User authentication
 
 Role and permission management
+
 **🖥️ Environment**
 
 Ubuntu 24.04.3
@@ -93,6 +95,7 @@ Elasticsearch, Logstash, Kibana 7.17.29
 JVM 22.0.2
 
 Local MongoDB instance
+
 ## 🕷️ Instagram Data Collection
 
 A Python script is used to extract Instagram posts based on a given hashtag.
